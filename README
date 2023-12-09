@@ -1,0 +1,26 @@
+# Button Control Panel
+
+Bu proje, Java Swing kütüphanesi kullanılarak oluşturulmuş basit bir kontrol panelidir. Panel üzerindeki butonlar üzerine tıklanarak belirli işlemlerin gerçekleştirilmesini sağlar.
+
+## Özellikler
+
+- 4x4 butonlu bir kontrol paneli ekranı.
+- Her buton, pasif ve aktif renk/simge durumlarına sahiptir.
+- Butona tıklandığında belirli bir GraphQL şemasında bir mutation çalıştırılır.
+
+## Kullanım
+
+1. `ButtonControlPanel` sınıfını çalıştırarak kontrol panelini başlatın.
+2. Kontrol panelindeki butonlara tıklayarak işlemleri gerçekleştirin.
+
+## Test Etme
+
+1. Kontrol panelini başlatın.
+2. Her bir butona sırayla tıklayarak renk ve simge değişimlerini gözlemleyin.
+3. Butonlara tıklanması durumunda konsol çıktılarını kontrol ederek GraphQL mutation'larının çalıştığını doğrulayın.
+
+## GraphQL Nedir ?
+
+- GraphQL, verileri sorgulamak ve işlemek için kullanılan bir API dilidir. REST API'lere göre daha esnek ve verimli bir yaklaşım sunar.
+- GraphQL, verileri sorgulamak için kullanılan bir sorgu diline sahiptir. Bu sorgu dili, istemcinin ihtiyaç duyduğu verileri tam olarak belirtmesine olanak tanır. Bu sayede, istemci gereksiz verileri istemekten kaçınır ve sunucudan daha verimli bir şekilde veri alır.
+- GraphQL, verileri işlemek için de kullanılabilir. Örneğin, bir istemci bir ürün listesini istediğinde, GraphQL kullanılarak bu listeye filtreler uygulanabilir veya sıralama yapılabilir.
