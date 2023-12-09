@@ -4,7 +4,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class ButtonControlPanel extends JFrame {
-    // Butonlar ve durumlarını tutmak için iki boyutlu dizi
+    // Butonlar ve durumlarını tutmak için iki boyutlu dizi tanımkar
     private final JButton[][] btns;
     private final boolean[][] btnsStatus;
 
